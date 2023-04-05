@@ -54,13 +54,44 @@ h1{
 #div1{
     height: 300px;
     border-radius: 25px;
-    background: url(media/R.jpg);
+
     background-repeat: no-repeat;
     background-size: cover;
     outline: none;
     background-attachment: fixed;
     position: relative;
+    overflow: hidden;
 }
+
+.img_defilant {
+    display: flex;
+    width: 100%;
+    animation: carousel 8s infinite;
+}
+
+.img_defilant img {
+    flex: 1;
+    width: 100%;
+    height: auto;
+}
+
+@keyframes carousel {
+    0% {
+      transform: translateX(0);
+    }
+    33.33% {
+      transform: translateX(-100%);
+    }
+    66.66% {
+      transform: translateX(-200%);
+    }
+    100% {
+      transform: translateX(-200%);
+    }
+  }
+
+
+
 
 #id1{
     background-color: rgba(0, 0, 0, 0.5);
@@ -75,9 +106,7 @@ h1{
     font-size: 20px;
     
 }
-#div1 {
-    overflow: hidden; /* pour que le conteneur div contienne ses enfants flottants */
-}
+
 
 .left-text {
     float: left;
@@ -99,6 +128,7 @@ h1{
     
 
 }
+
 
 section{
     display: flex;
