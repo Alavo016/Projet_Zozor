@@ -1,0 +1,181 @@
+body{
+    background-color: rgb(243, 233, 221);
+    font-family:'Times New Roman', Times, serif
+}
+
+header{
+     
+    width: 100%;
+    border: black 3px solid;
+    border-radius: 15px;
+    height: 100px;
+}
+
+#header1{
+    display: flex;
+    position: relative;
+}
+    
+.ul1{
+    display: flex;
+    list-style-type: none;
+}
+
+li{
+    margin: 0 5px 0;
+    
+}
+nav{
+    text-align: right;
+    margin-top: 5px;
+    display: inline-block;
+    margin-left: 850px;
+    position: absolute;
+    top: 65px;
+
+}
+.a1{
+    color: red;
+    font-weight: bold;
+}
+.a2{
+    color: blue;
+    text-decoration: none;
+}
+
+.img1{
+    width: 60px;
+    height: 40px;
+}
+h1{
+    margin: 10px 0;
+}
+
+#div1{
+    height: 300px;
+    border-radius: 25px;
+    background: url(media/R.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    outline: none;
+    background-attachment: fixed;
+    position: relative;
+}
+
+#id1{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border-radius: 0px 0px 6px 6px;
+    padding: 8px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin-right: 10px;
+    padding: 10px;
+    font-size: 20px;
+    
+}
+#div1 {
+    overflow: hidden; /* pour que le conteneur div contienne ses enfants flottants */
+}
+
+.left-text {
+    float: left;
+    
+    
+}
+
+.right-link {
+    margin-left: 88%;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 6px;
+    background-color: red;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    
+
+}
+
+section{
+    display: flex;
+    /* text-align: center;  */
+}
+article{
+    display: inline;
+    flex-basis: 70%;
+    border: black 3px solid;
+    border-radius: 5px;
+}
+aside{
+    border-radius: 5px;
+    border: rgb(71, 32, 54) 3px solid;
+    flex-basis: 25%;
+     height: 500px; 
+    overflow: hidden;
+    margin-left: 20px;
+    background-color: rgba(0, 0, 0, 0.527);
+    color: #fff;
+    
+}
+.auteur{
+    margin-left: 100px;
+}
+.auteur1{
+    margin-left: 50px;
+}
+#reseau{
+    display: flex;
+}
+
+footer{
+    display: flex;
+    height: 200px;
+    border: black 5px solid;
+    border-radius: 5px;
+
+}
+
+.photofooter{
+    width: 70px;
+    height: 70px;
+}
+
+#footer1{
+    border: black 3px solid;
+    border-radius: 15px;
+    height: 150px;
+    margin:auto 0px;
+    width: 30%;
+    margin-left: 15px;
+    text-align: center;
+}
+
+#footer2{
+    border: black 3px solid;
+    border-radius: 15px;
+    height: 150px;
+    margin:auto ;
+    width: 30%;
+    text-align: center;
+
+}
+#footer3{
+    border: black 3px solid;
+    border-radius: 15px;
+    height: 150px;
+    margin:auto 0px;
+    width: 30%;
+    margin-right: 15px;
+}
+
+.footers{
+    text-align: center;
+    text-decoration: underline;
+}
+ .sociaux{
+    margin:0px 5px ;
+ }
